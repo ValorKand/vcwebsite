@@ -21,43 +21,6 @@
     padding-bottom: 10%;
 }
 
-/* eliminar este */
-#titulo1 {
-    font-size: 50pt;
-}
-
-#titulo2 {
-    font-size: 20pt;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-
-#clasesExtra{
-    padding-top: 10%;
-}
-
-#extraTitulo {
-    font-size: 65pt;
-    line-height: 100%;
-}
-
-#extraTitulo1 {
-    color: #c80045;
-}
-
-#extraTexto {
-    font-size: x-large;
-}
-
-#programas, #programas2 {
-    padding-top: 10%;
-}
-
-#botoncitoContacto {
-    padding-top: 5%;
-    padding-bottom: 10%;
-}
-
 .cabecera.ui {
     padding-top: 10%;
 }
@@ -65,84 +28,23 @@
 .cabecera.ui h1 {
     font-size: 4cap;
     font-weight: bold;
+    line-height: 1cap;
 }
 
 .cabecera.ui h2 {
     font-weight: lighter;
-    line-height: 0cap;
+    line-height: 2cap;
+    margin-bottom: 0cap;
 }
 
-
-
-#Primaria {
-    background-image: url("../../data/img/primaria-fondo.jpg");
-    background-size: cover;
-}
-
-#Secundaria {
-    background-image: url("../../data/img/secundaria-fondo.jpg");
-    background-size: cover;
-}
-
-#Extra {
-    background-image: url("../../data/img/extra-fondo.jpg");
-    background-size: cover;
+.botones {
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .enlace:hover {
     text-decoration: underline;
     text-decoration-color: #4183C4;
-}
-
-#extraSegment.enlace {
-    padding-top: 20pt;
-}
-
-#primariaSegment{
-    background-color: #e9bfde;
-}
-
-#secundariaSegment{
-    background-color: #d2e1b4;
-}
-
-#extraSegment{
-    background-color: #d8f1ff;
-    /*padding-bottom: 13%;*/
-}
-
-#ofertaMiniTitulo {
-    margin-top: 5%;
-}
-
-#ofertaTitulo {
-    font-size: 60pt;
-    line-height: 90%;
-    font-weight: bold;
-}
-
-#ofertaTexto {
-    font-size: 25pt;
-    color: #606060;
-    letter-spacing: .004em;
-    line-height: 1.125;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-#ofertaPrimaria, #ofertaSecundaria {
-    background-color: #400108;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-#ofertaPrimaria {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-#primariaLink, #secundariaLink {
-    color: #ffffff;
 }
 
 #encabezado {
@@ -164,7 +66,7 @@
 body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: grayscale;
-    }
+}
 
 .hidden.menu {
     display: none;
@@ -306,43 +208,19 @@ body {
     /*     display: block !important; */
     /* } */
     
-    #extraTitulo {
-        font-size: 35pt;
-        line-height: 100%;
+    .cabecera.ui {
+        padding-top: 20%;
+    }
+
+    .cabecera.ui h1 {
+        font-size: 3cap;
+        font-weight: bold;
     }
     
-    #extraTitulo1 {
-        color: #c80045;
-    }
-    
-    #extraTexto {
-        font-size: large;
-    }
-
-    #titulo1 {
-        font-size: 30pt;
-    }
-    
-    #titulo2 {
-        font-size: 18pt;
-        padding-top: 10%;
-        padding-bottom: 10%;
-    }
-
-    #ofertaMiniTitulo {
-        margin-top: 20%;
-        font-size: 19pt;
-        line-height: 1.1pt;
-    }
-
-    #ofertaTitulo {
-        font-size: 44pt;
-    }
-
-    #ofertaTexto {
-        font-size: 18pt;
-        margin-left: 10%;
-        margin-right: 10%;
+    .cabecera.ui h2 {
+        font-size: 1.8cap;
+        font-weight: lighter;
+        line-height: 2cap;
     }
 
     .primary.pointing.menu .item,
