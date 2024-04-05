@@ -46,33 +46,51 @@
     padding-left: 0.5cap;
 }
 
-#soporte {
-    background-image: url('.././img/mantenimiento.jpg');
-    background-size: cover;
-    padding-bottom: 30%;
-
-}
-
 .enlace:hover {
     text-decoration: underline;
     text-decoration-color: #4183C4;
 }
 
+.cuadros.cuadro {
+    padding-top: 10%;
+}
+
+#soporte {
+    background-image: url('.././img/mantenimiento.jpg');
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 65%;
+    margin-left: 9px;
+}
 #implementacion {
     background-image: url('.././img/implementacion.jpg');
     background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 60%;
+    margin-right: 9px;
 }
 
-.cuadro.column {
-    padding-bottom: 50%;
-    margin-left: 2%;
-    margin-right: 2%;
+#capacitaciones {
+    background-image: url('.././img/capacitaciones.jpg');
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 66%;
+    margin-left: 9px;
+}
+#opensource {
+    background-image: url('.././img/opensource.jpg');
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 63%;
+    margin-right: 9px;
 }
 
 .cabecera.ui h2 {
     font-weight: lighter;
     line-height: 2cap;
     margin-bottom: 0cap;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .botones {
@@ -240,7 +258,7 @@ body {
     padding-bottom: 0%;
 }
 
-/* Manipula las vistas para móvil y resoluciones similares */
+/* Manipula las vistas para móvil y resolucioness similares */
 @media only screen and (max-width: 700px) {
     /* .ui.fixed.menu { */
     /*     display: block !important; */
@@ -259,6 +277,32 @@ body {
         font-size: 1.8cap;
         font-weight: lighter;
         line-height: 2cap;
+    }
+
+    #soporte {
+        background-size: cover;
+        padding-top: 10%;
+        padding-bottom: 65%;
+        margin-left: 0%;
+    }
+    #implementacion {
+        background-size: cover;
+        padding-top: 10%;
+        padding-bottom: 60%;
+        margin-right: 0%;
+    }
+
+    #capacitaciones {
+        background-size: cover;
+        padding-top: 10%;
+        padding-bottom: 65%;
+        margin-left: 0%;
+    }
+    #opensource {
+        background-size: cover;
+        padding-top: 10%;
+        padding-bottom: 60%;
+        margin-right: 0%;
     }
 
     .primary.pointing.menu .item,
