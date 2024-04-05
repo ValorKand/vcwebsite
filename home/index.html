@@ -12,16 +12,17 @@
         <link rel="shortcut icon" href="./img/ui/pagina/favicon.ico"></link>
         <link type="text/css" rel="stylesheet" href="./src/semantic/semantic.css"></link>
         <link rel="stylesheet" href="./src/css/body.css"></link>
+        <link rel="stylesheet" href="./src/css/componentes.css"></link>
     </head>
     <body id="root">
         <!--Menú lateral-->
-        <!-- TODO: poner un icono de cerrar -->
+        <!-- TODO: reemplazar el icono de cerrar -->
         <div class="ui vertical top borderless sidebar menu">
             <div class="ui right toc item "><i class="ui close icon"></i></div>
             <div class="ui hidden divider"></div>
             <div class="ui hidden divider"></div>
             <a class="item header" href="index.html">Inicio</a>
-            <a class="item header" href="index.html">¿Quiénes somos?</a>
+            <a class="item header" href="./paginas/nosotros.html">¿Quiénes somos?</a>
             <a class="item header" href="index.html">Marketing</a>
             <div class="item">
                 <div class="header"></i>Desarrollo</div>
@@ -51,7 +52,7 @@
                         <span id="principal">Vales Corp</span>
                     </div>
                     <div class="item">Inicio</div>
-                    <div class="item">¿Quiénes somos?</div>
+                    <a href="./paginas/nosotros.html" class="item">¿Quiénes somos?</a>
                     <div class="item">Marketing</div>
                     <div class="ui dropdown link item">
                         <span class="text">Desarrollo</span>
@@ -88,7 +89,7 @@
                     </div>
                     <!-- boton que se desoculta en movil !importante -->
                     <div class="right item">
-                        <a class="toc item"><img class="ui micro image" src="./src/img/line.horizontal.3.png"/></a>
+                        <a class="toc item"><img class="ui micro image" src="./src/ui/equal.png"/></a>
                     </div>
                 </div>
             </div>
@@ -120,6 +121,29 @@
                     <a class="ui circular inverted purple button">Contáctanos ya</a>
                 </div>
                 <img class="ui large centered image" src="./src/img/marketing.png"/>
+            </div>
+            <!-- divs cuadrados -->
+            <div class="ui vertical segment">
+                <div class="ui stackable vertical grid segment">
+                    <div class="row">
+                        <div id="soporte" class="centrado ui cuadro seven wide center floated inverted column segment">
+                            <h1>Soporte y Mantenimiento</h1>
+                            <h2>a cualquier equipo de cómputo, laptop, impresora, lo que quieras.</h2>
+                            <h2><a class="enlace" href="#">Más información <i class="ui chevron right icon"></i></a></h2>
+                        </div>
+                        <div id="implementacion" class="centrado cuadro ui seven wide center inverted floated column segment">
+                            <h1>Instalamos e implementamos equipos de cómputo, servidores</h1>
+                            <h2>con cualquier Sistema Operativo, Linux, macOS, etc.</h2>
+                            <h2><a class="enlace" href="#">Más información <i class="ui chevron right icon"></i></a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="centrado ui vertical stackable segment">
+                <h1>Somos Open Source</h1>
+                <h2>Trabajamos de la mano con Linux</h2>
+                <h2>Te capacitamos e implementamos lo necesario</h2>
+                <h4>Y próximanente Apple Specialist</h4>
             </div>
             <!-- Pié de página -->
             <div id="pie" class="ui vertical footer segment">

@@ -10,6 +10,7 @@
 .main.container {
     margin-top: 7em;
 }
+
 .wireframe {
     margin-top: 2em;
 }
@@ -34,11 +35,38 @@
     padding-right: 2cap;
 }
 
+.titulo h1 {
+    padding-top: 100%;
+}
+
 #principal {
     font-family: 'Matrix-Book';
     font-size: x-large;
     font-weight: bold;
     padding-left: 0.5cap;
+}
+
+#soporte {
+    background-image: url('.././img/mantenimiento.jpg');
+    background-size: cover;
+    padding-bottom: 30%;
+
+}
+
+.enlace:hover {
+    text-decoration: underline;
+    text-decoration-color: #4183C4;
+}
+
+#implementacion {
+    background-image: url('.././img/implementacion.jpg');
+    background-size: cover;
+}
+
+.cuadro.column {
+    padding-bottom: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .cabecera.ui h2 {
