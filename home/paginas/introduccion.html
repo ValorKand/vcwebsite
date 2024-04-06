@@ -46,7 +46,7 @@
         <div class="pusher">
             <!-- menu para pc -->
             <div class="computer only ui grid">
-                <div class="ui top fixed borderless menu">
+                <div id="menuComputadora" class="ui top fixed borderless secondary menu">
                     <div class="item">
                         <img src=".././src/img/logo.png"/>
                         <span id="principal">Vales Corp</span>
@@ -79,10 +79,16 @@
                         <a class="toc item"><i class="sidebar icon"></i></a>
                     </div>
                 </div>
+                <!-- submenú -->
+                <div id="submenu" class="ui three item sub fluid borderless supermassive menu">
+                    <a class="item">Pequeña empresa</a>
+                    <a class="item">Mediana empresa</a>
+                    <a class="item">Educación</a>
+                </div>
             </div>
             <!-- menu para moviles -->
             <div class="mobile only ui grid">
-                <div class="ui top fixed borderless menu">
+                <div id="menuMovil" class="ui top fixed borderless secondary menu">
                     <div class="item">
                         <img src=".././src/img/logo.png"/>
                         <span id="principal">Vales Corp</span>
@@ -95,10 +101,43 @@
             </div>
             <!-- aqui empieza contenido de pagina -->
             <div class="cabecera ui vertical segment">
-                <h1 class="ui header">En Vales Corp queremos que tu patrimonio tenga la mejor tecnología</h1>
-                <h1 class="ui header">Y los recursos más recientes</h1>
-                <h2 class="ui header">Por eso trabajamos con la mejor dedicación y con valores</h2>
-                <h2 class="ui header">Nos comprometemos a brindarte el mejor servicio de tu vida.</h2>
+                <h1 id="titulo1" class="centrado ui header">Vales Corp en la empresa / Educación</h1>
+                <h1 id="titulo2" class="centrado ui header">La colaboración hace grande a cualquier equipo</h1>
+                <h2 class="centrado ui header">
+                    <p id="texto">
+                        Los servicios de hardware y software de Vales Corp se integran
+                        a la perfección para ofrecer a tus equipos de trabajo el poder
+                        y versatilidad que necesitan, sin importar el tamaño de tu patrimonio
+                    </p>
+                </h2>
+                <!-- Div de tarjetas -->
+                <div id="tarjetas" class="ui three column centrado stackable doubling relaxed grid container">
+                    <div class="column">
+                        <div id="pequeñaEmpresa" class="tarjeta ui inverted segment">
+                            <h3 class="ui header">Pequeña empresa</h3>
+                            <h2 class="negritas content">Despierta la creatividad en cada alumno.</h2>
+                            <h2><a href="./paginas/secciones/primaria.html" class="enlace">Más información<i class="ui angle right icon"></i></a></h2>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div id="granEmpresa" class="tarjeta ui inverted segment">
+                            <h3 class="ui header">Grandes empresas</h3>
+                            <h2 class="negritas content">Enseña. Innova. Inspira de mil maneras</h2>
+                            <h2><a href="./paginas/secciones/secundaria.html" class="enlace">Más información<i class="ui angle right icon"></i></a></h2>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div id="educacionEscuela" class="tarjeta ui inverted segment">
+                            <h3 class="ui header">Educación</h3>
+                            <div class="ui hidden divider"></div>
+                            <h2 class="negritas content">
+                                Aprende sin límites.
+                                <div class="ui hidden divider"></div>
+                            </h2>
+                            <h2><a href="./paginas/secciones/extracurriculares.html" class="enlace">Más información<i class="ui angle right icon"></i></a></h2>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- Pié de página -->
             <div id="pie" class="ui vertical footer segment">

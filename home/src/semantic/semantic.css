@@ -25343,6 +25343,16 @@ Floated Menu / Item
   width: 25rem;
 }
 
+/* Supermassive */
+
+.ui.supermassive.menu {
+  font-size: 2.28571429rem;
+}
+
+.ui.supermassive.vertical.menu {
+  width: 50rem;
+}
+
 /*******************************
          Theme Overrides
 *******************************/

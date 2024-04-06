@@ -35,8 +35,19 @@
     padding-right: 2cap;
 }
 
-.titulo h1 {
-    padding-top: 100%;
+#titulo1 {
+    font-size: 30px;
+}
+
+#titulo2 {
+    font-size: 65px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#texto {
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #principal {
@@ -53,6 +64,33 @@
 
 .cuadros.cuadro {
     padding-top: 10%;
+}
+
+#tarjetas {
+    padding-top: 5%;
+}
+
+.tarjeta.segment {
+    padding-bottom: 100%;
+}
+
+.tarjeta.ui.segment h3 {
+    font-size: larger;
+}
+
+#pequeñaEmpresa {
+    background-image: url('.././img/pequena.jpg');
+    background-size: cover;
+}
+
+#granEmpresa {
+    background-image: url('.././img/grande.jpg');
+    background-size: cover;
+}
+
+#educacionEscuela {
+    background-image: url('.././img/educacion.jpg');
+    background-size: cover;
 }
 
 #soporte {
@@ -130,6 +168,14 @@ body {
 
 .masthead.menu {
     margin-top: 0%;
+}
+
+.secondary.menu {
+    position: relative;
+}
+
+.sub.menu{
+    padding-top: 3%;
 }
 
 .masthead.segment {
@@ -277,6 +323,21 @@ body {
         font-size: 1.8cap;
         font-weight: lighter;
         line-height: 2cap;
+    }
+
+    #titulo1 {
+        font-size: 20px;
+    }
+    
+    #titulo2 {
+        font-size: 30px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    #texto {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     #soporte {

@@ -12,16 +12,16 @@ $(document).ready(function() {
         $("#menuMovil").transition("fade out");
         }
     });
-    $(".secondhead").visibility({
+    $(".secondary.menu").visibility({
         once: false,
         //oculta y desoculta el menu según la clase "movil" o "computadora"
         onBottomPassed: function() {
-        $("#menuComputadora").transition("fade in");
-        $("#menuMovil").transition("fade in");
-        },
-        onBottomPassedReverse: function() {
         $("#menuComputadora").transition("fade out");
         $("#menuMovil").transition("fade out");
+        },
+        onBottomPassedReverse: function() {
+        $("#menuComputadora").transition("fade in");
+        $("#menuMovil").transition("fade in");
         }
     });
     // create sidebar and attach to menu open
@@ -58,4 +58,10 @@ $(document).ready(function() {
             .modal('show')
         ;
     });
+    $('.ui.sticky')
+        .sticky({
+            context: '#submenusticky',
+            pushing: true
+        })
+    ;
 });
