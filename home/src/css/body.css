@@ -74,11 +74,15 @@
     padding-bottom: 100%;
 }
 
-.tarjeta.ui.segment h3 {
-    font-size: larger;
+#pequenaEmpresa h3 {
+    font-size: 3.5cap;
 }
 
-#pequeñaEmpresa {
+#botontarjeta {
+    padding-bottom: 10%;
+}
+
+#pequenaEmpresa {
     background-image: url('.././img/pequena.jpg');
     background-size: cover;
 }
