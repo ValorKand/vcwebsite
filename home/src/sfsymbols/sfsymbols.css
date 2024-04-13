@@ -5,8 +5,6 @@ i.icono {
     display: inline-block;
     opacity: 1;
     margin: 0em 0.25rem 0em 0em;
-    width: 1.18em;
-    height: 1em;
     font-family: 'iconos';
     font-style: normal;
     font-weight: normal;
@@ -154,46 +152,41 @@ i.bordeado.invertido.icono {
 
 i.mini.icono,
 i.mini.iconos {
-  line-height: 1;
-  font-size: 0.4em;
+    width: 0.4em;
 }
 i.diminuto.icono,
 i.diminuto.iconos {
-  line-height: 1;
-  font-size: 0.5em;
+    width: 0.5em;
 }
 i.chico.icono,
 i.chico.iconos {
-  line-height: 1;
-  font-size: 0.75em;
+    width: 0.75em;
 }
+
+/* este es el tamaño normal */
 i.icono,
 i.iconos {
-  font-size: 1em;
+    width: 1em;
 }
 i.amplio.icono,
 i.amplio.iconos {
-  line-height: 1;
-  vertical-align: middle;
-  font-size: 1.5em;
+    vertical-align: middle;
+    width: 1.5em;
 }
 i.grande.icono,
 i.grande.iconos {
-  line-height: 1;
-  vertical-align: middle;
-  font-size: 2em;
+    vertical-align: middle;
+    width: 2em;
 }
 i.enorme.icono,
 i.enorme.iconos {
-  line-height: 1;
-  vertical-align: middle;
-  font-size: 4em;
+    vertical-align: middle;
+    width: 4em;
 }
 i.masivo.icono,
 i.masivo.iconos {
-  line-height: 1;
-  vertical-align: middle;
-  font-size: 8em;
+    vertical-align: middle;
+    width: 8em;
 }
 
 /*******************************
@@ -281,4 +274,8 @@ i.icono.xmark:before {
 
 i.icono.equal:before {
     content: url('./icons/equal.svg');
+}
+
+i.icono.chevron.right {
+    content: url('./icons/chevron.right.svg');
 }
