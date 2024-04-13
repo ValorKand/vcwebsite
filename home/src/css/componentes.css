@@ -40,6 +40,15 @@
   text-align: center;
 }
 
+.morradop3{
+  color:transparent;
+  background: linear-gradient(270deg,#d391fa,#c364fa,#a230ed,#6b00d7,#3e003b,#190087);
+  animation:gradiente 64s linear infinite;
+  background-size: 60% 100%;
+  -webkit-background-clip:text;
+  text-align: center;
+}
+
 .sangre{
   color:transparent;
   background: linear-gradient(270deg,#d91a1a,#b41c1c,#912a2c,#4e1a1d,#761010,#990f02);

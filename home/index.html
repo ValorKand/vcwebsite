@@ -11,17 +11,20 @@
         <title>Vales Corp</title>
         <link rel="shortcut icon" href="./src/ui/favicon.ico"></link>
         <link type="text/css" rel="stylesheet" href="./src/semantic/semantic.css"></link>
+        <link type="text/css" rel="stylesheet" href="./src/sfsymbols/sfsymbols.css"></link>
         <link rel="stylesheet" href="./src/css/body.css"></link>
         <link rel="stylesheet" href="./src/css/componentes.css"></link>
     </head>
     <body id="root">
-        <!--Menú lateral-->
+        <!-- Menú lateral -->
         <!-- TODO: reemplazar el icono de cerrar -->
         <div class="ui vertical top borderless sidebar menu">
-            <div class="ui right toc item "><i class="ui close icon"></i></div>
+            <div class="right item">
+                <a id="cerrar" class="toc item"><i class="icono xmark"></i></a>
+            </div>
             <div class="ui hidden divider"></div>
             <div class="ui hidden divider"></div>
-            <a class="item header" href="index.html">Inicio</a>
+            <a class="item"><span class="morradop3 negritas">Portafolio</span></a>
             <a class="item header" href="./paginas/nosotros.html">¿Quiénes somos?</a>
             <a class="item header" href="index.html">Marketing</a>
             <div class="item">
@@ -51,7 +54,14 @@
                         <img src="./src/img/logo.png"/>
                         <span id="principal">Vales Corp</span>
                     </div>
-                    <div class="item">Inicio</div>
+                    <div class="ui dropdown link item">
+                        <span class="text morradop3 negritas">Portafolio</span>
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a class="item" href="https://institutotabasco.edu.mx" target="_blank">Instituto Tabasco</a>
+                            <a class="item" href="https://colegiohernancortes.github.io/chcwebsite" target="_blank">Colegio Hernán Cortés</a>
+                        </div>
+                    </div>
                     <a href="./paginas/nosotros.html" class="item">¿Quiénes somos?</a>
                     <div class="item">Marketing</div>
                     <div class="ui dropdown link item">
@@ -74,10 +84,6 @@
                             <a class="item" href="#">Cloud</a>
                         </div>
                     </div>
-                    <!-- boton que se desoculta en movil !importante -->
-                    <div class="left item">
-                        <a class="toc item"><i class="sidebar icon"></i></a>
-                    </div>
                 </div>
             </div>
             <!-- menu para moviles -->
@@ -89,7 +95,7 @@
                     </div>
                     <!-- boton que se desoculta en movil !importante -->
                     <div class="right item">
-                        <a class="toc item"><img class="ui micro image" src="./src/ui/equal.png"/></a>
+                        <a class="toc item"><i class="icono equal"></i></a>
                     </div>
                 </div>
             </div>
