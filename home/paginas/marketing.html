@@ -1,5 +1,5 @@
-<!-- /home/index.html -->
-<!DOCTYPE html>
+<!-- introducción.html -->
+<!DOCTYPE HTML>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -9,14 +9,14 @@
         <meta name="keywords" content="Tecnología, Diseños, Páginas web, Desarrollo" />
         <meta name="author" content="Adonay David Hernández Vales"/>
         <title>Vales Corp</title>
-        <link rel="shortcut icon" href="./src/ui/favicon.ico"></link>
-        <link type="text/css" rel="stylesheet" href="./src/semantic/semantic.css"></link>
-        <link type="text/css" rel="stylesheet" href="./src/sfsymbols/sfsymbols.css"></link>
-        <link rel="stylesheet" href="./src/css/body.css"></link>
-        <link rel="stylesheet" href="./src/css/componentes.css"></link>
+        <link rel="shortcut icon" href=".././src/ui/favicon.ico"></link>
+        <link type="text/css" rel="stylesheet" href=".././src/semantic/semantic.css"></link>
+        <link type="text/css" rel="stylesheet" href=".././src/sfsymbols/sfsymbols.css"></link>
+        <link rel="stylesheet" href=".././src/css/body.css"></link>
+        <link rel="stylesheet" href=".././src/css/componentes.css"></link>
     </head>
     <body id="root">
-        <!-- Menú lateral -->
+        <!--Menú lateral-->
         <!-- TODO: reemplazar el icono de cerrar -->
         <div class="ui vertical top borderless sidebar menu">
             <div class="right item">
@@ -24,8 +24,8 @@
             </div>
             <div class="ui hidden divider"></div>
             <div class="ui hidden divider"></div>
-            <a class="item"><span class="morradop3 negritas">Portafolio</span></a>
-            <a class="item header" href="./paginas/nosotros.html">¿Quiénes somos?</a>
+            <a class="item header" href="index.html">Inicio</a>
+            <a class="item header" href="nosotros.html">¿Quiénes somos?</a>
             <a class="item header" href="index.html">Marketing</a>
             <div class="item">
                 <div class="header"></i>Desarrollo</div>
@@ -49,21 +49,13 @@
         <div class="pusher">
             <!-- menu para pc -->
             <div class="computer only ui grid">
-                <div class="ui top fixed borderless menu">
+                <div id="menuComputadora" class="ui top fixed inverted borderless menu">
                     <div class="item">
-                        <img src="./src/img/logo.png"/>
+                        <img src=".././src/img/logo.png"/>
                         <span id="principal">Vales Corp</span>
                     </div>
-                    <div class="ui dropdown link item">
-                        <span class="text morradop3 negritas">Portafolio</span>
-                        <i class="dropdown icon"></i>
-                        <div class="menu">
-                            <div class="header">Colaboraciones</div>
-                            <a class="item" href="https://institutotabasco.edu.mx" target="_blank">Instituto Tabasco</a>
-                            <a class="item" href="https://colegiohernancortes.github.io/chcwebsite" target="_blank">Colegio Hernán Cortés</a>
-                        </div>
-                    </div>
-                    <a href="./paginas/nosotros.html" class="item">¿Quiénes somos?</a>
+                    <div class="item">Inicio</div>
+                    <a href="nosotros.html" class="item">¿Quiénes somos?</a>
                     <div class="item">Marketing</div>
                     <div class="ui dropdown link item">
                         <span class="text">Desarrollo</span>
@@ -85,61 +77,61 @@
                             <a class="item" href="#">Cloud</a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- menu para moviles -->
-            <div class="mobile only ui grid">
-                <div class="ui top fixed borderless menu">
-                    <div class="item">
-                        <img src="./src/img/logo.png"/>
-                        <span id="principal">Vales Corp</span>
-                    </div>
                     <!-- boton que se desoculta en movil !importante -->
                     <div class="right item">
                         <a class="toc item"><i class="icono equal"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="ui hidden divider"></div>
-            <!-- inicio de contenido de página -->
-            <div class="cabecera ui vertical center aligned segment">
-                <h1 class="ui header">Soluciones a tu alcance</h1>
-                <h2>Problemas tecnológicos. Somos la Respuesta</h2>
-                <div class="botones">
-                    <a href="./paginas/introduccion.html" class="ui circular purple button">Aprende más</a>
-                    <a href="mailto:david.tab2018@gmail.com" class="ui circular inverted purple button">Contáctanos ya</a>
+            <!-- menu para moviles -->
+            <div class="mobile only ui grid">
+                <div id="menuMovil" class="ui top fixed borderless inverted secondary menu">
+                    <div class="item">
+                        <img src=".././src/img/logo.png"/>
+                        <span id="principal">Vales Corp</span>
+                    </div>
+                    <!-- boton que se desoculta en movil !importante -->
+                    <div class="right item">
+                        <a class="toc item"><img class="ui micro image" src=".././src/ui/equal.png"/></a>
+                    </div>
                 </div>
-                <img class="ui large centered image" src="./src/img/pc1.png"/>
             </div>
-            <div class="cabecera ui vertical center aligned inverted black segment">
-                <h1 class="ui header">Tú lo imaginas, Nosotros lo hacemos realidad</h1>
-                <h2>Desarrollamos la web de tus sueños, aplicaciones móviles y de escritorio.</h2>
-                <div class="botones">
-                    <a href="./paginas/desarrollo.html" class="ui circular purple button">Aprende más</a>
-                    <a href="mailto:david.tab2018@gmail.com" class="ui circular inverted purple button">Contáctanos ya</a>
-                </div>
-                <img class="ui large centered image" src="./src/img/desarrollo.png"/>
+            <!-- aqui empieza contenido de pagina -->
+            <div class="cabecera ui vertical inverted segment">
+                <h1 id="titulo2" class="centrado ui header">Hacemos el plan de mercadeo perfecto para ti</h1>
+                <h2 class="centrado ui header">
+                    <p id="marketingTexto" class="texto">
+                        El equipo de especialistas de Vales Corp te ayudará a que tu negocio
+                        tenga visibilidad en todas tus redes sociales y llegues a las personas que quieres.
+                        Con la estrategia adecuada tendrás la comunidad online que tanto anhelas y 
+                        le darás a tus clientes una atención de calidad.
+                    </p>
+                </h2>
             </div>
-            <div class="cabecera ui vertical center aligned segment">
-                <h1 class="ui header">Has crecer tu negocio, empresa, escuela, etc.</h1>
-                <h2>Tenemos el plan de Marketing ideal para ti.</h2>
-                <div class="botones">
-                    <a href="./paginas/marketing.html" class="ui circular purple button">Aprende más</a>
-                    <a href="mailto:david.tab2018@gmail.com" class="ui circular inverted purple button">Contáctanos ya</a>
+            <!-- banner marketing -->
+            <div id="bannerMarketing" class="ui inverted vertical segment">
+                <div class="ui container">
+                    <h1 class="mediano">Dale su propia identidad a tu empresa</h1>
+                    <p>
+                        No se trata de solo crear publicaciones, fotos y ya. Se trata
+                        de darle a tu negocio una personalidad propia, reconocible e irrepetible,
+                        que tu imágen en redes sea un referente para tus colegas y competidores.
+                    </p>
                 </div>
-                <img class="ui large centered image" src="./src/img/marketing.png"/>
             </div>
             <!-- divs cuadrados -->
-            <div class="ui vertical segment">
-                <div id="ofertaEducativa">
+            <div class="ui vertical inverted segment">
+                <div id="descripcionMarketing">
                     <!-- cuadros -->
                     <div class="cuadros ui two column stackable grid">
                         <div class="row">
                             <div class="column">
-                                <div id="soporte" class="cuadro ui inverted segment">
-                                    <h1 class="centrado">Soporte y Mantenimiento</h1>
+                                <div class="cuadro ui inverted segment">
+                                    <img class="ui centered medium image" src=".././src/img/analizamos.png"/>
+                                    <h1 class="centrado">Analizamos y estudiamos lo que tienes actualmente</h1>
                                     <div class="ui centrado medium header">
-                                        A cualquier equipo de cómputo, laptop, impresora, lo que quieras.
+                                        Hacemos un estudio de mercadeo para saber cuales son las mejores
+                                        opciones para ti, y que tu ptoyecto tenga la visibilidad que merece.
                                     </div>
                                     <div class="ui enlace centrado small header">
                                         <a href="#">
@@ -241,6 +233,6 @@
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
-        <script src="./src/js/funciones.js"></script>
+        <script src=".././src/js/funciones.js"></script>
     </body>
 </html>

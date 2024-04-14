@@ -26,7 +26,10 @@
 
 .grande {
     font-size: 80pt;
-    opacity: 100%;
+}
+
+.mediano {
+    font-size: 50pt;
 }
 
 p.grande {
@@ -55,7 +58,7 @@ p.grande {
     padding-right: 25%;
 }
 
-#texto {
+.texto {
     padding-left: 25%;
     padding-right: 25%;
 }
@@ -173,6 +176,35 @@ p.grande {
     background-size: cover;
     padding-top: 10%;
     padding-bottom: 10%;
+}
+
+#bannerMarketing {
+    background-image: url('../img/mercadeodigital.jpg');
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+#bannerMarketing > .ui.container {
+    padding-right: 35%;
+    padding-top: 5%;
+}
+
+#bannerMarketing h1 {
+    line-height: 1;
+    font-weight: 600;
+}
+
+#bannerMarketing p {
+    font-size: 19pt;
+    line-height: 1.381;
+}
+
+#marketingTexto {
+    padding-bottom: 5%;
+}
+
+#descripcionMarketing .cuadro {
+    background-color: #000000;
 }
 
 #bocadito {
