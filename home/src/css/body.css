@@ -416,8 +416,26 @@ body {
         font-size: 15pt;
     }
     
+    .texto {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
     .grande {
         font-size: 30pt;
+    }
+
+    .mediano {
+        font-size: 25pt;
+    }
+
+    #bannerMarketing p {
+        font-size: 12pt;
+        line-height: 1;
+    }
+
+    #marketingTexto {
+        font-weight: 400;
     }
 
     #textoDesarrollo {
