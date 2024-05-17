@@ -1,10 +1,24 @@
 /* sfsymbols.css */
 
+@font-face {
+    font-family: 'sfsymbols';
+    src: url('../font/sfsymbols.eot?76300679');
+    src: url('../font/sfsymbols.eot?76300679#iefix') format('embedded-opentype'),
+         url('../font/sfsymbols.woff2?76300679') format('woff2'),
+         url('../font/sfsymbols.woff?76300679') format('woff'),
+         url('../font/sfsymbols.ttf?76300679') format('truetype'),
+         url('../font/sfsymbols.svg?76300679#sfsymbols') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Propiedades del ícono */
 i.icono {
     display: inline-block;
     opacity: 1;
     margin: 0em 0.25rem 0em 0em;
+    width: 1.18em;
+    height: 1em;
     font-family: 'iconos';
     font-style: normal;
     font-weight: normal;
@@ -152,41 +166,46 @@ i.bordeado.invertido.icono {
 
 i.mini.icono,
 i.mini.iconos {
-    width: 0.4em;
+  line-height: 1;
+  font-size: 0.4em;
 }
 i.diminuto.icono,
 i.diminuto.iconos {
-    width: 0.5em;
+  line-height: 1;
+  font-size: 0.5em;
 }
 i.chico.icono,
 i.chico.iconos {
-    width: 0.75em;
+  line-height: 1;
+  font-size: 0.75em;
 }
-
-/* este es el tamaño normal */
 i.icono,
 i.iconos {
-    width: 1em;
+  font-size: 1em;
 }
 i.amplio.icono,
 i.amplio.iconos {
-    vertical-align: middle;
-    width: 1.5em;
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 1.5em;
 }
 i.grande.icono,
 i.grande.iconos {
-    vertical-align: middle;
-    width: 2em;
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 2em;
 }
 i.enorme.icono,
 i.enorme.iconos {
-    vertical-align: middle;
-    width: 4em;
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 4em;
 }
 i.masivo.icono,
 i.masivo.iconos {
-    vertical-align: middle;
-    width: 8em;
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 8em;
 }
 
 /*******************************
@@ -276,6 +295,10 @@ i.icono.equal:before {
     content: url('./icons/equal.svg');
 }
 
-i.icono.chevron.right {
-    content: url('./icons/chevron.right.svg');
+i.icono.chevron.down.circle.fill:before {
+    content: url('./icons/chevron.down.circle.fill.svg');
+}
+
+i.icono.chevron.left:before {
+    content: url('./icons/chevron.left.svg');
 }

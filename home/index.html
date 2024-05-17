@@ -18,38 +18,45 @@
     <body id="root">
         <!-- Menú lateral -->
         <!-- TODO: reemplazar el icono de cerrar -->
-        <div class="ui vertical top borderless sidebar menu">
+        <div id="primario" class="ui vertical top borderless sidebar menu">
             <div class="right item">
                 <a id="cerrar" class="toc item"><i class="icono xmark"></i></a>
             </div>
             <div class="ui hidden divider"></div>
             <div class="ui hidden divider"></div>
-            <a class="item"><span class="morradop3 negritas">Portafolio</span></a>
+            <div class="ui fade reveal">
+                <div class="visible content">
+                    <a class="item header"><span class="morradop3 negritas">Portafolio</span></a>
+                </div>
+                <div class="hidden content">
+                    <a class="item header">Instituto Tabasco</a>
+                    <a class="item header">Colegio Hernán Cortés</a>
+                </div>
+            </div>
+            
             <a class="item header" href="./paginas/nosotros.html">¿Quiénes somos?</a>
             <a class="item header" href="index.html">Marketing</a>
-            <div class="item">
-                <div class="header"></i>Desarrollo</div>
-                <div class="menu">
-                    <a class="item" href="#">Páginas Web</a>
-                    <a class="item" href="#">Software y Aplicaciones</a>
-                </div>
-            </div>
+            <a class="item header">Desarrollo</a>
             <a class="item header">Diseño gráfico</a>
-            <a class="item header">Soporte y Mantenimiento a equipos</a>
-            <div class="item">
-                <div class="header"></i>Instalación e implementación</div>
-                <div class="menu">
-                    <a class="item" href="#">Equipos de cómputo</a>
-                    <a class="item" href="#">Sistemas Operativos</a>
-                    <a class="item" href="#">Servidores</a>
-                    <a class="item" href="#">Cloud</a>
-                </div>
-            </div>
+            <a class="item header">Soporte y mantenimiento a equipos</a>
+            <a class="item header">Instalación e implementación</a>
         </div>
+        <!-- sidebar portafolio -->
+        <!--<div id="portafolio" class="ui vertical top borderless sidebar menu">
+            <a id="atras" class="portafolio item"><i class="icono chevron left"></i></a>
+            <div class="ui hidden item"></div>
+            <div class="ui hidden item"></div>
+            <a class="item header">Instituto Tabasco</a>
+            <a class="item header">Colegio Hernán Cortés</a>
+            <a class="item header">Soporte y mantenimiento a equipos</a>
+            <a class="item header">Instalación e implementación</a>
+            <div class="ui hidden item"></div>
+            <div class="ui hidden item"></div>
+        </div>-->
         <div class="pusher">
             <!-- menu para pc -->
             <div class="computer only ui grid">
-                <div class="ui top fixed borderless menu">
+                <div id="menuComputadora" class="ui top fixed borderless menu">
                     <div class="item">
                         <img src="./src/img/logo.png"/>
                         <span id="principal">Vales Corp</span>
@@ -107,7 +114,7 @@
                 <h2>Problemas tecnológicos. Somos la Respuesta</h2>
                 <div class="botones">
                     <a href="./paginas/introduccion.html" class="ui circular purple button">Aprende más</a>
-                    <a href="mailto:david.tab2018@gmail.com" class="ui circular inverted purple button">Contáctanos ya</a>
+                    <a href="mailto:david.tab2023@icloud.com" class="ui circular inverted purple button">Contáctanos ya</a>
                 </div>
                 <img class="ui large centered image" src="./src/img/pc1.png"/>
             </div>
@@ -116,7 +123,7 @@
                 <h2>Desarrollamos la web de tus sueños, aplicaciones móviles y de escritorio.</h2>
                 <div class="botones">
                     <a href="./paginas/desarrollo.html" class="ui circular purple button">Aprende más</a>
-                    <a href="mailto:david.tab2018@gmail.com" class="ui circular inverted purple button">Contáctanos ya</a>
+                    <a href="mailto:david.tab2023@icloud.com" class="ui circular inverted purple button">Contáctanos ya</a>
                 </div>
                 <img class="ui large centered image" src="./src/img/desarrollo.png"/>
             </div>
@@ -125,7 +132,7 @@
                 <h2>Tenemos el plan de Marketing ideal para ti.</h2>
                 <div class="botones">
                     <a href="./paginas/marketing.html" class="ui circular purple button">Aprende más</a>
-                    <a href="mailto:david.tab2018@gmail.com" class="ui circular inverted purple button">Contáctanos ya</a>
+                    <a href="mailto:david.tab2023@icloud.com" class="ui circular inverted purple button">Contáctanos ya</a>
                 </div>
                 <img class="ui large centered image" src="./src/img/marketing.png"/>
             </div>

@@ -25,7 +25,9 @@ $(document).ready(function() {
         }
     });
     // create sidebar and attach to menu open
-    $(".ui.sidebar").sidebar("attach events", ".toc.item");
+    // TODO: ahora ya funciona pero raro
+    $("#primario.ui.sidebar").sidebar("attach events", ".toc.item");
+    $("#portafolio.ui.sidebar").sidebar("attach events", ".portafolio.item");
     // tarjetas con blur
     $('.special.cards .image').dimmer({
         on: 'hover'

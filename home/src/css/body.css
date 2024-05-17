@@ -4,6 +4,11 @@
     padding: 0%;
     margin: 0%;
 }
+
+.ui.sidebar.menu {
+    padding-bottom: 100%;
+}
+
 .ui.menu .item img.logo {
     margin-right: 1.5em;
 }
@@ -249,12 +254,20 @@ p.grande {
     margin-top: 0cap;
 }
 
+#pieInvertido {
+    background-color: black;
+}
+
 .title {
     padding-top: 1em;
 }
 
 #cerrar {
     float: right;
+}
+
+#atras {
+    float: left;
 }
 
 /*secondhead es la propiedad del menú para las subpáginas, masthead es para el index*/
