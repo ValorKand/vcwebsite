@@ -22,52 +22,95 @@
     text-align: left;
 }
 
-.dorado{
-  color:transparent;
-  background: linear-gradient(270deg,#f7ef8a,#d2ac47,#edc967,#dfbd69,#ccaf20,#b7b26c);
-  animation:gradiente 64s linear infinite;
-  background-size: 60% 100%;
-  -webkit-background-clip:text;
-  text-align: center;
+.dorado {
+    color: transparent;
+    background: linear-gradient(
+        270deg,
+        #f7ef8a,
+        #d2ac47,
+        #edc967,
+        #dfbd69,
+        #ccaf20,
+        #b7b26c
+    );
+    animation: gradiente 64s linear infinite;
+    background-size: 60% 100%;
+    -webkit-background-clip: text;
+    text-align: center;
 }
 
-.aquamarina{
-  color:transparent;
-  background: linear-gradient(270deg,#061829,#10374a,#165668,#104046,#034948,#005d5c);
-  animation:gradiente 64s linear infinite;
-  background-size: 60% 100%;
-  -webkit-background-clip:text;
-  text-align: center;
+.aquamarina {
+    color: transparent;
+    background: linear-gradient(
+        270deg,
+        #061829,
+        #10374a,
+        #165668,
+        #104046,
+        #034948,
+        #005d5c
+    );
+    animation: gradiente 64s linear infinite;
+    background-size: 60% 100%;
+    -webkit-background-clip: text;
+    text-align: center;
 }
 
-.morradop3{
-  color:transparent;
-  background: linear-gradient(270deg,#d391fa,#c364fa,#a230ed,#6b00d7,#8c0085,#1e00a6,#6b00d7);
-  animation:gradiente 64s linear infinite;
-  background-size: 60% 100%;
-  -webkit-background-clip:text;
-  text-align: center;
+.morradop3 {
+    color: transparent;
+    background: linear-gradient(
+        270deg,
+        #0025f6,
+        #00b9fc,
+        #0094fb,
+        #006ff9,
+        #004af8
+    );
+    animation: gradiente 64s linear infinite;
+    background-size: 60% 100%;
+    -webkit-background-clip: text;
+    text-align: center;
 }
 
-.sangre{
-  color:transparent;
-  background: linear-gradient(270deg,#d91a1a,#b41c1c,#912a2c,#4e1a1d,#761010,#990f02);
-  animation:gradiente 64s linear infinite;
-  background-size: 60% 100%;
-  -webkit-background-clip:text;
-  text-align: center;
+.sangre {
+    color: transparent;
+    background: linear-gradient(
+        270deg,
+        #d91a1a,
+        #b41c1c,
+        #912a2c,
+        #4e1a1d,
+        #761010,
+        #990f02
+    );
+    animation: gradiente 64s linear infinite;
+    background-size: 60% 100%;
+    -webkit-background-clip: text;
+    text-align: center;
 }
 
-.arcoiris{
-  color:transparent;
-  background: linear-gradient(270deg,#1e5799,#2ce0bf,#76dd2c,#dba62b,#ff1493,#1e5799);
-  animation:gradiente 64s linear infinite;
-  background-size: 60% 100%;
-  -webkit-background-clip:text;
-  text-align: center;
+.arcoiris {
+    color: transparent;
+    background: linear-gradient(
+        270deg,
+        #1e5799,
+        #2ce0bf,
+        #76dd2c,
+        #dba62b,
+        #ff1493,
+        #1e5799
+    );
+    animation: gradiente 64s linear infinite;
+    background-size: 60% 100%;
+    -webkit-background-clip: text;
+    text-align: center;
 }
 
-@keyframes gradiente{
-  0%{background-position-x:0}
-  to{background-position-x:10240px}
+@keyframes gradiente {
+    0% {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: 10240px;
+    }
 }
