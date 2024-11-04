@@ -1,4 +1,5 @@
-@import url('.././Matrix-Book-Font/css/Matrix-Book.css');
+@import url(".././fuentes/Matrix-Book/css/Matrix-Book.css");
+@import url(".././fuentes/SFProDisplay/sfpro.css");
 
 * {
     padding: 0%;
@@ -69,7 +70,7 @@ p.grande {
 }
 
 #principal {
-    font-family: 'Matrix-Book';
+    font-family: "Matrix-Book";
     font-size: x-large;
     font-weight: bold;
     padding-left: 0.5cap;
@@ -77,7 +78,7 @@ p.grande {
 
 .enlace:hover {
     text-decoration: underline;
-    text-decoration-color: #4183C4;
+    text-decoration-color: #4183c4;
 }
 
 .cuadros.cuadro {
@@ -88,11 +89,15 @@ p.grande {
     padding-top: 5%;
 }
 
-#pequenaEmpresa, #granEmpresa, #educacionEscuela {
+#pequenaEmpresa,
+#granEmpresa,
+#educacionEscuela {
     border-radius: 50px;
 }
 
-#pequenaEmpresa h3, #granEmpresa h3, #educacionEscuela h3 {
+#pequenaEmpresa h3,
+#granEmpresa h3,
+#educacionEscuela h3 {
     padding-top: 5%;
     font-size: 3.5cap;
 }
@@ -103,29 +108,29 @@ p.grande {
 }
 
 #pequenaEmpresa {
-    background-image: url('.././img/pequena.jpg');
+    background-image: url(".././img/pequena.jpg");
     background-size: cover;
 }
 
 #granEmpresa {
-    background-image: url('.././img/grande.jpg');
+    background-image: url(".././img/grande.jpg");
     background-size: cover;
 }
 
 #educacionEscuela {
-    background-image: url('.././img/educacion.jpg');
+    background-image: url(".././img/educacion.jpg");
     background-size: cover;
 }
 
 #soporte {
-    background-image: url('.././img/mantenimiento.jpg');
+    background-image: url(".././img/mantenimiento.jpg");
     background-size: cover;
     padding-top: 10%;
     padding-bottom: 65%;
     margin-left: 9px;
 }
 #implementacion {
-    background-image: url('.././img/implementacion.jpg');
+    background-image: url(".././img/implementacion.jpg");
     background-size: cover;
     padding-top: 10%;
     padding-bottom: 60%;
@@ -133,14 +138,14 @@ p.grande {
 }
 
 #capacitaciones {
-    background-image: url('.././img/capacitaciones.jpg');
+    background-image: url(".././img/capacitaciones.jpg");
     background-size: cover;
     padding-top: 10%;
     padding-bottom: 66%;
     margin-left: 9px;
 }
 #opensource {
-    background-image: url('.././img/opensource.jpg');
+    background-image: url(".././img/opensource.jpg");
     background-size: cover;
     padding-top: 10%;
     padding-bottom: 63%;
@@ -181,14 +186,14 @@ p.grande {
 }
 
 #bannerDesarrollo {
-    background-image: url('.././img/banner-desarrollo.jpg');
+    background-image: url(".././img/banner-desarrollo.jpg");
     background-size: cover;
     padding-top: 10%;
     padding-bottom: 10%;
 }
 
 #bannerMarketing {
-    background-image: url('../img/mercadeodigital.jpg');
+    background-image: url("../img/mercadeodigital.jpg");
     background-size: cover;
     padding-bottom: 10%;
 }
@@ -241,11 +246,11 @@ p.grande {
 }
 
 .enlace {
-    text-decoration-color: #4183C4;
+    text-decoration-color: #4183c4;
 }
 
 #encabezado {
-    background-color: #134F5C;
+    background-color: #134f5c;
 }
 
 #pie {
@@ -289,7 +294,7 @@ body {
     position: relative;
 }
 
-.sub.menu{
+.sub.menu {
     padding-top: 3%;
 }
 
@@ -355,7 +360,7 @@ body {
     font-weight: 500;
 }
 
-.masthead h2{
+.masthead h2 {
     font-size: 1.7em;
     font-weight: normal;
 }
@@ -424,7 +429,7 @@ body {
     /* .ui.fixed.menu { */
     /*     display: block !important; */
     /* } */
-    
+
     .textos.ui.container {
         padding-top: 20%;
     }
@@ -432,7 +437,7 @@ body {
     .texto.mediano {
         font-size: 15pt;
     }
-    
+
     .texto {
         padding-left: 2%;
         padding-right: 2%;
@@ -475,7 +480,7 @@ body {
         font-size: 3cap;
         font-weight: bold;
     }
-    
+
     .cabecera.ui h2 {
         font-size: 1.8cap;
         font-weight: lighter;
@@ -485,13 +490,13 @@ body {
     #titulo1 {
         font-size: 20px;
     }
-    
+
     #titulo2 {
         font-size: 30px;
         padding-left: 15%;
         padding-right: 15%;
     }
-    
+
     #texto {
         padding-left: 10%;
         padding-right: 10%;
@@ -574,4 +579,3 @@ body {
         font-size: 1.5em;
     }
 }
-

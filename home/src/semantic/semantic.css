@@ -10,7 +10,7 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 /*Fuente personal*/
-@import url('.././SFProDisplay/css/sfpro.css');
+@import url('.././fuentes/SFProDisplay/sfpro.css');
 /*!
  * # Semantic UI 2.5.0 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -566,7 +566,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #FFFFFF;
-  font-family: 'SF Pro Display' ,'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'SF Pro Display', 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -585,7 +585,7 @@ h5 {
   font-family: 'SF Pro Display' ,'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.28571429em;
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
-  font-weight: bold;
+  /*font-weight: bold;*/
   padding: 0em;
 }
 

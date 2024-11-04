@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./font/normal/sfpro.eot');
+    src: url('./font/normal/sfpro.eot?#iefix') format('embedded-opentype'),
+         url('./font/normal/sfpro.woff2') format('woff2'),
+         url('./font/normal/sfpro.woff') format('woff'),
+         url('./font/normal/sfpro.ttf') format('truetype'),
+         url('./font/normal/sfpro.otf') format('opentype'),'
+         url('./font/normal/sfpro.svg') format('svg');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./font/italic/sfpro.eot');
+    src: url('./font/italic/sfpro.eot?#iefix') format('embedded-opentype'),
+         url('./font/italic/sfpro.woff2') format('woff2'),
+         url('./font/italic/sfpro.woff') format('woff'),
+         url('./font/italic/sfpro.ttf') format('truetype'),
+         url('./font/italic/sfpro.otf') format('opentype'),'
+         url('./font/italic/sfpro.svg') format('svg');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./font/bold/sfpro.eot');
+    src: url('./font/bold/sfpro.eot?#iefix') format('embedded-opentype'),
+         url('./font/bold/sfpro.woff2') format('woff2'),
+         url('./font/bold/sfpro.woff') format('woff'),
+         url('./font/bold/sfpro.ttf') format('truetype'),
+         url('./font/bold/sfpro.otf') format('opentype'),'
+         url('./font/bold/sfpro.svg') format('svg');
+    font-style: bold;
+}
